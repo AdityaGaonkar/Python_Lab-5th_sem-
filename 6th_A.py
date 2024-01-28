@@ -40,3 +40,26 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# without use of constructor
+# class Car:
+#     def set_details(self, model_name, color, price, top_speed):
+#         self.model_name = model_name
+#         self.color = color
+#         self.price = price
+#         self.top_speed = top_speed
+#
+#     def read_details(self):
+#         print("Model Name:", self.model_name)
+#         print("Color:", self.color)
+#         print("Price:", self.price)
+#         print("Top Speed:", self.top_speed)
+#
+# # Creating an instance of Car
+# my_car = Car()
+#
+# # Setting details using the set_details method
+# my_car.set_details("Tesla Model S", "Black", "$80,000", "155 mph")
+#
+# # Displaying details
+# my_car.read_details()

@@ -36,3 +36,22 @@ def main():
 
 if __name__ == "__main__":
     main()
+# class Student:
+#     def __init__(self, name, roll_number, branch):
+#         self.name = name
+#         self.roll_number = roll_number
+#         self.branch = branch
+#
+# # Sample student records
+# students = [
+#     Student("John", "A001", "Computer Science"),
+#     Student("Jane", "A002", "Electrical Engineering"),
+#     Student("Bob", "A003", "Computer Science"),
+#     # Add more student records as needed
+# ]
+#
+# # Print details of students in a given branch
+# target_branch = "Computer Science"
+# for student in students:
+#     if student.branch == target_branch:
+#         print(f"Name: {student.name}, Roll Number: {student.roll_number}, Branch: {student.branch}")
