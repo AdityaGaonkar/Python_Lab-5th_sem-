@@ -1,6 +1,5 @@
 import seaborn as sns
 import pandas as pd
-import sklearn as sk
 import matplotlib.pyplot as plt
 import numpy as np
 from sklearn.linear_model import LinearRegression
@@ -16,7 +15,7 @@ plt.ylabel('Y')
 plt.title('Scatter plot')
 plt.show()
 
-x_mean = x_values.mean()
+x_mean = np.mean(x_values)
 y_mean = y_values.mean()
 print(f"mean of x is {x_mean} and y is {y_mean}")
 
@@ -27,6 +26,8 @@ print(f"median of x is {x_median} and y is {y_meadian}")
 x_sd = x_values.std()
 y_sd = np.std(y_values)
 print(f"sd of x is {x_sd} and y is {y_sd}")
+
+x_var=np.var(x_values)
 
 regression = LinearRegression()
 regression.fit(x_values, y_values)
